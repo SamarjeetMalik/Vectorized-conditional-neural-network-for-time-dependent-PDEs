@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center">
-   <h1 align="center">Vectorized Conditional Neural Field (VCNeF)</h1> 
+   <h1 align="center">Vectorized Conditional Neural Network for Time dependent PDEs</h1> 
   </p>
   <p align="center" style="font-size:16px">
     <a target="_blank" href="https://jhagnberger.github.io/"><strong>Jan Hagnberger</strong></a>,
@@ -15,19 +15,6 @@
  </p>
 
 #
- 
-This repository contains the official PyTorch implementation of the VCNeF model from the ICML'24 paper,  
-"[**Vectorized Conditional Neural Fields: A Framework for Solving Time-dependent Parametric Partial Differential Equations**](https://arxiv.org/abs/2406.03919)".
-
-## Requirements
-
-The VCNeF model requires and is tested with the following packages.
-- [PyTorch](https://pytorch.org) in version 2.2.0
-- [NumPy](https://numpy.org) in version 1.26.4
-- [Einops](https://einops.rocks) in version 0.7.0
-
-
-Please also see the [``requirements.txt``](./requirements.txt) file which contains all packages to run the provided examples.
 
 
 ## Usage
